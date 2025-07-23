@@ -12,3 +12,7 @@
 * [Interactive blocks](tutorials/interactive-blocks.md)
 * [OpenAPI](tutorials/openapi.md)
 * [Integrations](tutorials/integrations.md)
+
+## Group 1
+
+* [# 📘 R Programming Course – From Beginner to Advanced](group-1/r-programming-course-from-beginner-to-advanced.md)
