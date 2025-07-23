@@ -1,4 +1,4 @@
-# # 📘 R Programming Course – From Beginner to Advanced
+# 📘 R Programming Course – From Beginner to Advanced
 
 ## 📘 Summary: Full R Programming Course
 

@@ -13,6 +13,6 @@
 * [OpenAPI](tutorials/openapi.md)
 * [Integrations](tutorials/integrations.md)
 
-## Group 1
+## Advance Note
 
-* [# 📘 R Programming Course – From Beginner to Advanced](group-1/r-programming-course-from-beginner-to-advanced.md)
+* [📘 R Programming Course – From Beginner to Advanced](advance-note/r-programming-course-from-beginner-to-advanced.md)
