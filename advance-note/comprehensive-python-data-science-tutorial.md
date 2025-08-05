@@ -34,7 +34,20 @@ Python is a high-level, interpreted programming language known for its simplicit
 
 Let’s create a simple program to manage a list of student grades, demonstrating variables, lists, loops, and functions.
 
-python`# Variables and data typesstudent_name = "Alice" # Stringgrade = 85 # Integerpercentage = 92.5 # Floatgrades = [90, 85, 88, 92] # Liststudent_info = {"name": "Alice", "age": 20} # Dictionary# Control structure: if-elseif grade >= 90:print(f"{student_name} got an A!")elif grade >= 80:print(f"{student_name} got a B!")else:print(f"{student_name} needs improvement.")# Loop: Iterate through gradesprint("\nAll grades:")for g in grades:print(g)# Function: Calculate average gradedef calculate_average(grades_list):return sum(grades_list) / len(grades_list)avg = calculate_average(grades)print(f"\nAverage grade: {avg:.2f}")`
+python\
+`# Variables and data types`
+
+`student_name = "Alice" # String` \
+`grade = 85 # Integer`\
+`percentage = 92.5 # Float`\
+`grades = [90, 85, 88, 92] # List` \
+`student_info = {"name": "Alice", "age": 20} # Dictionary#` \
+`Control structure: if-elseif grade >= 90:print(f"{student_name} got an A!")`\
+`elif grade >= 80:`\
+`print(f"{student_name} got a B!")`\
+`else:print(f"{student_name} needs improvement.")`\
+`# Loop: Iterate through gradesprint("\nAll grades:")for g in grades:print(g)`\
+`# Function: Calculate average gradedef calculate_average(grades_list):return sum(grades_list) / len(grades_list)avg = calculate_average(grades)print(f"\nAverage grade: {avg:.2f}")`
 
 **Explanation**:
 
@@ -42,7 +55,7 @@ python`# Variables and data typesstudent_name = "Alice" # Stringgrade = 85 # Int
 * **If-else**: Checks the grade and prints a message based on conditions.
 * **Loop**: Prints each grade in the list.
 * **Function**: calculate\_average computes the mean of grades.
-* **Output**:text`Alice got a B!All grades:90858892Average grade: 88.75`
+* **Output**: text`Alice got a B!All grades:90858892Average grade: 88.75`
 
 ***
 
