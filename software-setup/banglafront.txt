@@ -1,0 +1,50 @@
+==============================
+Kali Linux এ বাংলা লেখার Setup
+==============================
+
+1. Bengali Fonts Install:
+   -----------------------
+   টার্মিনালে চালাও:
+   sudo apt update
+   sudo apt install fonts-beng
+
+   এতে সিস্টেমে বাংলা ফন্ট চলে আসবে।
+
+2. Input Method Install:
+   -----------------------
+   sudo apt install ibus ibus-m17n m17n-db
+
+   - "ibus" = input framework
+   - "m17n" = multilingual input (বাংলা সহ)
+
+3. IBus চালু করা:
+   ----------------
+   টার্মিনালে চালাও:
+   ibus-setup
+
+   ⬤ "Input Method" tab এ গিয়ে "Add" এ ক্লিক করো।
+   ⬤ "Bangla" লিখে খুঁজে বের করো।
+   ⬤ "Bangla - Probhat" বা "Bangla - Avro Phonetic" নির্বাচন করে Add করো।
+
+4. Autostart এ ibus যোগ করা:
+   --------------------------
+   bashrc ফাইলে যোগ করো:
+   nano ~/.bashrc
+
+   শেষে লিখো:
+   export GTK_IM_MODULE=ibus
+   export QT_IM_MODULE=ibus
+   export XMODIFIERS=@im=ibus
+   ibus-daemon -drx
+
+   সেভ করে বের হয়ে আসো।
+
+   তারপর চালাও:
+   source ~/.bashrc
+
+5. এখন কীভাবে লিখবে?
+   -------------------
+   ⬤ কীবোর্ডে ভাষা পরিবর্তন করতে `Super (Windows key) + Space` চাপো।
+   ⬤ এরপর সরাসরি বাংলায় লিখতে পারবে।
+
+==============================
